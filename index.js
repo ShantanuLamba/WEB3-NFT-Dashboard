@@ -48,7 +48,7 @@ function Showwallet() {
         (message) => {
             var spot = document.getElementById("res2");
             spot.innerHTML = message;
-            console.log(message)
+            console.log(message);
         }
     )
 }
